@@ -13,12 +13,10 @@
       width: 50%;
       margin-bottom: 50px;
     }
-
-    footer{
-        text-align: center;
-    }
   }
-  
+
+
+
   /* For Smartphones */
   @media all and (max-width: 670px) {
     .header-right{
@@ -52,9 +50,27 @@
       width: 100%;
       margin-bottom: 50px;
     }
-    
-    
+
     footer{
+      height: 380px;
+    }
+    
+    .footer-left{
+      display: inline-block;
+      float: center;
       text-align: center;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+
+
+    .footer-right{
+      display: inline-block;
+      float: center;
+      text-align: center;
+      padding-top: 10px;
+      width: 100%;
+      color: #8d94db;
     }
   }
+}

@@ -189,36 +189,39 @@ span.menu-icon{
   font-weight: normal;
 }
 
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 250px;
+}
+
+.footer-left{
+  display: inline-block;
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+footer img{
+  width: 125px;
+  border-radius: 25px;
+}
+
+
+.footer-right{
+  display: inline-block;
+  float: right;
+  text-align: right;
+  width: 50%;
+  color: #8d94db;
+}
+.footer-heading{
+  font-size: 20px;
+}
+footer a{
+  color: #f7f7f7;
+}
+footer a:hover{
+  color: #50e6d9;
 }
