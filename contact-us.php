@@ -12,7 +12,43 @@
 </head>
 
 <body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark base-theme base-theme-header">
+      <div class="container-fluid">
 
+        <a class="navbar-brand" href="#">
+          <img src="SoloPreneurjpgfinal.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+          SoloPreneur
+        </a>
+        <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  
   <!--alert messages start-->
   <?php echo $alert; ?>
   <!--alert messages end-->
